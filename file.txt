@@ -1,0 +1,89 @@
+ 1  git clone https://github.com/lakshmiynh/SCHOOL_MANAGEMENT-PROJECT.git
+    2  git clone https://github.com/lakshmiynh/SCHOOL_MANAGEMENT-PROJECT.git
+    3  git --version
+    4  git config --global user.name "Lakshmi1ynh"
+    5  git config --global user.email "lakshmiynh8@gmail.com"
+    6  git config --list --show-origin --show-scope
+    7  pwd
+    8  cd /desktop
+    9  cd C:\Users\laksh\OneDrive\Desktop
+   10  cd C:\Users\laksh\Desktop
+   11  ls
+   12  mkdir sachin
+   13  cd sachin
+   14  git init
+   15  nano first.md
+   16  git commit -m "hello world"
+   17  git add .
+   18  git commit -m "hello world"
+   19  git remote add origin https://github.com/lakshmiynh/Demo.git
+   20  git push origin main
+   21  git checkout -b uc1
+   22  nano first.md
+   23  git commit -m "second commit"
+   24  git add .
+   25  git commit -m "second commit"
+   26  git push origin uc1
+   27  git checkout main
+   28  git merge uc1
+   29  git push origin main
+   30  git checkout -b sub1
+   31  nano file.txt
+   32  git add .
+   33  git commit -m "first commit in file"
+   34  git push origin sub1
+   35  git checkout main
+   36  git merge sub1
+   37  git push origin main
+   38  ls
+   39  clear
+   40  mkdir Terminalcommands
+   41  cd Terminalcommands/
+   42  git clone https://github.com/edurekavivekh/linux-content.git
+   43  ls
+   44  cd linux-content/
+   45  ls
+   46  clear
+   47  git init
+   48  git remote add origin https://github.com/lakshmiynh/demosimple.git
+   49  git init
+   50  ls
+   51  git add Program.cs
+   52  git status
+   53  git commit -m "added:basics program"
+   54  git push origin main
+   55  git checkout -b uc1
+   56  touch filesimple.csv
+   57  nano filesimple.csv
+   58  git add filesimple.csv
+   59  git status
+   60  git commit -m "added:sub brach code"
+   61  git push uc1
+   62  git push origin uc1
+   63  git checkout main
+   64  touch file4.txt
+   65  nano file4.txt
+   66  git add file4.txt
+   67  git commit -m "adedd:add maste code"
+   68  git push main
+   69  git push origin main
+   70  nano file4.txt
+   71  git checkout -b uc2
+   72  git add file4.txt
+   73  git commit -m "added:sub code uc2"
+   74  git push origin uc2
+   75  git checkout main
+   76  git branch
+   77  git merge uc2
+   78  git push origin main
+   79  git checkout -b uc3
+   80  git branch
+   81  git branch --delete uc3
+   82  git branch --d uc3
+   83  git checkout main
+   84  git branch --d uc3
+   85  git branch -m uc2 uc4
+   86  git branch
+   87  git push origin uc4
+   88  git push origin --d uc2
+   89  git push origin --d uc2
